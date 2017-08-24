@@ -1,26 +1,27 @@
 based on laravel5.4
+Laravel Project Advanced Internet Programming Init.v1.0
 
-°²×°·½·¨
+å®‰è£…æ–¹æ³•
 
-1 ´úÂë»ñÈ¡²»ÔÚÃèÊö
-´úÂë»ñÈ¡ºó  ÔÚÍøÕ¾¸ùÄ¿Â¼Ö´ÐÐ  composer update  ¼ÓÔØÀ©Õ¹×é¼þ
+1 ä»£ç èŽ·å–ä¸åœ¨æè¿°
+ä»£ç èŽ·å–åŽ  åœ¨ç½‘ç«™æ ¹ç›®å½•æ‰§è¡Œ  composer update  åŠ è½½æ‰©å±•ç»„ä»¶
 2
-»ñÈ¡´úÂëºó  ÐÞ¸ÄÍøÕ¾¸ùÄ¿Â¼.env ºÍ config/database.php
-ÀïÃæµÄÊý¾Ý¿âÐÅÏ¢ ÇëÉèÖÃ±£³ÖÒ»ÖÂ
+èŽ·å–ä»£ç åŽ  ä¿®æ”¹ç½‘ç«™æ ¹ç›®å½•.env å’Œ config/database.php
+é‡Œé¢çš„æ•°æ®åº“ä¿¡æ¯ è¯·è®¾ç½®ä¿æŒä¸€è‡´
 
-3 Éú³É±¾µØÍ¨Ñ¶µÄKEY
+3 ç”Ÿæˆæœ¬åœ°é€šè®¯çš„KEY
 php artisan key:generate
 
-4 Ö´ÐÐÊý¾ÝÇ¨ÒÆ
-1£©Ç¨ÒÆ±í½á¹¹
-Ö´ÐÐ php artisan migrate
-2£©Ç¨ÒÆ²âÊÔÊý¾Ý
+4 æ‰§è¡Œæ•°æ®è¿ç§»
+1ï¼‰è¿ç§»è¡¨ç»“æž„
+æ‰§è¡Œ php artisan migrate
+2ï¼‰è¿ç§»æµ‹è¯•æ•°æ®
 php artisan db:seed
 
-5  µÇÂ¼ºóÌ¨ ÇëÊ¹ÓÃ  admin@admin.com  ÃÜÂë 111111
+5  ç™»å½•åŽå° è¯·ä½¿ç”¨  admin@admin.com  å¯†ç  111111
 
-6 ÓÊ¼þÉèÖÃ¿ÉÄÜÐèÒª
-1)=ÐÞ¸Ä.evn¸øÌù³öÀ´ 
+6 é‚®ä»¶è®¾ç½®å¯èƒ½éœ€è¦
+1)=ä¿®æ”¹.evnç»™è´´å‡ºæ¥ 
  
 MAIL_DRIVER=smtp
 MAIL_HOST=smtp.163.com
@@ -29,7 +30,7 @@ MAIL_USERNAME=homework0820@163.com
 MAIL_PASSWORD=homework0820
 MAIL_ENCRYPTION=ssl
  
-2£©ÐÞ¸Ä config/mail.php
+2ï¼‰ä¿®æ”¹ config/mail.php
 
  'from' => [
         'address' => env('MAIL_FROM_ADDRESS', 'homework0820@163.com'),
